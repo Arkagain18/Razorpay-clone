@@ -1,34 +1,44 @@
 import React, { useEffect } from "react";
 import feather from "feather-icons";
+import dotted from "/images/feature-section1-dottedrows.png"
+import PaymentSuite from "/images/payment-suite.png"
+import Icon1 from "/images/payment-link-icon.png"
+import Icon2 from "/images/payment-pages-icon.png"
+import Icon3 from "/images/payment-buttons-icon.png"
+import Icon4 from "/images/subscriptions-icon.png"
+import Icon5 from "/images/route-icon.png"
+import Icon6 from "/images/smart-collect-icon.png"
+import Wave from "/images/features-wave.png"
+
 
 const features = [
   {
-    icon: "/images/payment-link-icon.png",
+    icon: Icon1,
     title: "Payment Link",
     desc: "Share payment link via an email, SMS, messenger, chatbot etc. and get paid immediately",
   },
   {
-    icon: "/images/payment-pages-icon.png",
+    icon: Icon2 ,
     title: "Payment Pages",
     desc: "Take your store online instantly with zero coding. Accept international & domestic payments",
   },
   {
-    icon: "/images/payment-buttons-icon.png",
+    icon: Icon3,
     title: "Payment Buttons",
     desc: "Create, Copy & Collect With Payment Button. Collect one time or subscription payments & more",
   },
   {
-    icon: "/images/subscriptions-icon.png",
+    icon: Icon4,
     title: "Subscriptions",
     desc: "Subscription plans with automated recurring transactions on various payment methods.",
   },
   {
-    icon: "/images/route-icon.png",
+    icon: Icon5,
     title: "Route",
     desc: "Split incoming payments automatically to vendor's accounts, manage marketplace money flow...",
   },
   {
-    icon: "/images/smart-collect-icon.png",
+    icon: Icon6,
     title: "Smart Collect",
     desc: "Automatically recognise incoming NEFT, RTGS, IMPS, UPI payments using Virtual Accounts & UPI-IDs",
   },
@@ -42,7 +52,7 @@ const FeaturesSection1 = () => {
   return (
     <section className="relative mt-[190px] overflow-hidden">
       <img
-        src="/images/feature-section1-dottedrows.png"
+        src={dotted}
         className="absolute -top-[8rem] left-[10rem] inline-block -z-10"
         loading="lazy"
         width={233}
@@ -50,7 +60,7 @@ const FeaturesSection1 = () => {
         alt=""
       />
       <img
-        src="/images/feature-section1-dottedrows.png"
+        src={dotted}
         className="absolute top-[3rem] right-0 inline-block rotate-180"
         loading="lazy"
         width={233}
@@ -106,12 +116,12 @@ const FeaturesSection1 = () => {
         <div className="flex items-center cursor-pointer group">
           <a
             href="#"
-            className="font-mullish font-bold text-blue-500 group-hover:text-black transition-all duration-200"
+            className="font-mullish font-bold text-blue-500 group-hover:text-gray-400 transition-all duration-200"
           >
             Know More
           </a>
           <svg
-            className="w-5 h-5 ml-1 text-blue-500 group-hover:text-black transition-all duration-200"
+            className="w-5 h-5 ml-1 text-blue-500 group-hover:text-gray-400 transition-all duration-200"
             fill="none"
             stroke="currentColor"
             strokeWidth="2"
@@ -125,7 +135,7 @@ const FeaturesSection1 = () => {
 
           </div>
           <img
-            src="/images/payment-suite.png"
+            src={PaymentSuite}
             className="max-w-[600px] absolute right-0 bottom-0 hidden md:max-w-[400px] lg:max-w-[600px] md:block lg:block"
             alt="payment suite"
           />
@@ -175,7 +185,7 @@ const FeaturesSection1 = () => {
             </svg>
 
             {/* Blue Zig-Zag Wave (Only on hover) */}
-            <img src="/images/features-wave.png" alt="wave" className="h-[25%] w-[22%] absolute right-0 bottom-2 invisible group-hover:visible transition-all duration-200"/>
+            <img src={Wave} alt="wave" className="h-[25%] w-[22%] absolute right-0 bottom-2 invisible group-hover:visible transition-all duration-200"/>
             </div>
             </div>
           </div>

@@ -1,4 +1,6 @@
 import React from "react";
+import Illustration from "/images/hero-illustration.jpg"
+import Shape from "/images/hero-shape.png"
 
 const HeroSection = () => {
   return (
@@ -19,12 +21,12 @@ const HeroSection = () => {
         </div>
 
         {/* Right Part */}
-        <img src="/images/hero-illustration.jpg" className="w-full max-w-[680px]" alt="hero" />
+        <img src={Illustration} className="w-full max-w-[680px]" alt="hero" />
       </div>
 
       {/* Shape Part */}
       <div className="absolute w-[103%] left-0 right-0">
-        <img src="/images/hero-shape.png" loading="lazy" className="w-full object-fill z-10" alt="shape" />
+        <img src={Shape} loading="lazy" className="w-full object-fill z-10" alt="shape" />
       </div>
     </section>
   );

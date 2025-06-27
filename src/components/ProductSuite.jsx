@@ -1,42 +1,41 @@
 import React from "react";
 
-
 const cards = [
   {
     title: "Corporate Cards",
     desc: "Simplify your recurring, international and team expenses with savings on every spend. Save upto 10 lacs every month.",
-    icon: "/images/razorpayXicon.png",
-    bg: "/images/instant-settlement-bg.png",
-    bgHover: "/images/instant-settlement-hoverbg.png",
+    icon: "images/razorpayXicon.png",
+    bg: "images/instant-settlement-bg.png",
+    bgHover: "images/instant-settlement-hoverbg.png",
   },
-  // You can add unique entries here if you want later, duplicating for now
+
   {
     title: "UPI AutoPay",
     desc: "Allow customers to set up recurring payments using UPI Apps.",
-    icon: "/images/autopay_icon.png",
-    bg: "/images/upi-autopaybg.png",
-    bgHover: "/images/upi-autopay-hoverbg.png",
+    icon: "images/autopay_icon.png",
+    bg: "images/upi-autopaybg.png",
+    bgHover: "images/upi-autopay-hoverbg.png",
   },
   {
     title: "Magic Checkouts",
     desc: "Improve your order conversion rates & reduce return-to-origins. Boost your business by 20%",
-    icon: "/images/magic-checkout.png",
-    bg: "/images/instant-magic-checkout-bg.png",
-    bgHover: "/images/magic-checkout-hoverbg.png",
+    icon: "images/magic-checkout.png",
+    bg: "images/instant-magic-checkout-bg.png",
+    bgHover: "images/magic-checkout-hoverbg.png",
   },
   {
     title: "Payments Button",
     desc: "Accepts payments on your website, in less than 5 minutes. No developer needed",
-    icon: "/images/payment-button.png",
-    bg: "/images/payment-button-bg.png",
-    bgHover: "/images/instantsettlement-hoverbg.png",
+    icon: "images/payment-button.png",
+    bg: "images/payment-button-bg.png",
+    bgHover: "images/instantsettlement-hoverbg.png",
   },
   {
     title: "Instant Settelment",
     desc: "Settle your customer payments within 10 seconds as soon as your account is activated, even during holidays",
     icon: "/images/instant-settlement-icon.png",
-    bg: "/images/instantsettlement-bg.png",
-    bgHover: "/images/instantsettlement-hoverbg.png",
+    bg: "images/instantsettlement-bg.png",
+    bgHover: "images/instantsettlement-hoverbg.png",
   },
 ];
 
@@ -46,12 +45,12 @@ const ProductSuite = () => {
       <div className="relative w-11/12 max-w-[1080px] mx-auto pt-4">
         {/* Background dots */}
         <img
-          src="/images/feature-section1-dottedrows.png"
+          src="images/feature-section1-dottedrows.png"
           alt=""
           className="absolute w-[233px] left-[300px] -top-[6rem] z-10"
         />
         <img
-          src="/images/feature-section1-dottedrows.png"
+          src="images/feature-section1-dottedrows.png"
           alt=""
           className="absolute w-[233px] -right-[3.5rem] -top-[6rem] z-10"
         />
@@ -107,5 +106,4 @@ const ProductSuite = () => {
     </section>
   );
 };
-
 export default ProductSuite;

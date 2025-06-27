@@ -1,5 +1,6 @@
 import React from "react";
 import { CheckIcon } from "@heroicons/react/24/solid";
+import CTA from "/images/ctaImg.png"
 
 const CTASection = () => {
   return (
@@ -38,7 +39,7 @@ const CTASection = () => {
 
         {/* Right */}
         <img
-          src="/images/ctaImg.png"
+          src={CTA}
           width="240px"
           height="282px"
           className="mt-16 pt-2 hidden lg:block"

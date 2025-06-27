@@ -1,4 +1,5 @@
 import React from "react";
+import Company from "/images/comanies.png"
 
 const JoinRazorpay = () => {
   return (
@@ -27,13 +28,13 @@ const JoinRazorpay = () => {
           {/* Scrolling image wrapper */}
           <div className="absolute animate-[scrollUp_10s_linear_infinite]">
             <img
-              src="/images/comanies.png"
+              src={Company}
               width="500"
               className="object-cover"
               alt="companies"
             />
             <img
-              src="/images/comanies.png"
+              src={Company}
               width="500"
               className="object-cover"
               alt="companies-duplicate"

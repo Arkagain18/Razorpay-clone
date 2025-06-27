@@ -1,11 +1,15 @@
 import React from "react";
+import Dotted from "/images/feature-section1-dottedrows.png"
+import Test from "/images/testimonial.jpg"
+import Quotes from "/images/quotes.png"
+import Logo from "/images/fake-company-logo.png"
 
 const Testimonials = () => {
   return (
     <section className="relative">
       <div className="w-11/12 max-w-[1300px] mx-auto relative py-20">
         <img
-          src="/images/feature-section1-dottedrows.png"
+          src={Dotted}
           className="absolute w-[200px] top-[8rem] left-[2rem] -z-10"
           alt="dotted background"
         />
@@ -27,7 +31,7 @@ const Testimonials = () => {
         {/* Content */}
         <div className="flex flex-col md:flex-row items-center max-w-[960px] mx-auto my-20 md:space-x-12">
           <img
-            src="/images/testimonial.jpg"
+            src={Test}
             height="320px"
             width="320px"
             className="rounded-xl mb-6 md:mb-0"
@@ -37,7 +41,7 @@ const Testimonials = () => {
 
           <div className="max-w-[400px] flex flex-col text-center md:text-left">
             <img
-              src="/images/quotes.png"
+              src={Quotes}
               height="40px"
               width="35px"
               className="-mb-2"
@@ -53,7 +57,7 @@ const Testimonials = () => {
             <p className="font-mullish font-extrabold text-2xl">Lorem Ipsum</p>
             <p className="font-mullish font-medium">CEO, XYZ Engineering Company</p>
             <img
-              src="/images/fake-company-logo.png"
+              src={Logo}
               height="40px"
               width="80px"
               className="mt-2"

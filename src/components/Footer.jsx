@@ -1,4 +1,7 @@
 import React from "react";
+import DarkLogo from "/images/logo-dark.png"
+import Cert1 from "/images/footer-certificate-1.png"
+import Cert2 from "/images/footer-certificate-2.jpg"
 
 const Footer = () => {
   return (
@@ -7,7 +10,7 @@ const Footer = () => {
       <div className="w-10/12 pt-[400px] pb-10 md:pt-[350px] md:my-0 md:w-11/12 max-w-[1080px] mx-auto flex flex-col space-y-6 lg:space-y-0 lg:space-x-4 lg:flex-row justify-between">
         {/* Column 1 */}
         <div className="flex flex-col md:max-w-[340px] lg:max-w-[260px]">
-          <img src="/images/logo-dark.png" width="120px" height="24px" alt="logo" />
+          <img src={DarkLogo} width="120px" height="24px" alt="logo" />
           <p className="text-sm text-gray-600 my-3 font-mullish">
             Razorpay is the only payments solution in India that allows
             businesses to accept, process and disburse payments with its product
@@ -53,8 +56,8 @@ const Footer = () => {
             </button>
           </form>
           <div className="flex items-start space-x-4">
-            <img src="/images/footer-certificate-1.png" width="92" height="40" alt="cert1" />
-            <img src="/images/footer-certificate-2.jpg" width="122" height="80" alt="cert2" />
+            <img src={Cert1} width="92" height="40" alt="cert1" />
+            <img src={Cert2} width="122" height="80" alt="cert2" />
           </div>
         </div>
         

@@ -2,6 +2,7 @@ import React from "react";
 import feather from "feather-icons";
 import { useEffect } from "react";
 import FeaturesSection1 from "./FeaturesSection1";
+import featureBG from "/images/feature-section-2BG.png";
 
 const FeaturesSection2 = () => {
   useEffect(() => {
@@ -9,7 +10,8 @@ const FeaturesSection2 = () => {
   }, []);
 
   return (
-    <section className="bg-[url(images/feature-section-2BG.png)] bg-no-repeat bg-cover pt-[20rem] pb-[500px] mt-14">
+    <section style={{ backgroundImage: `url(${featureBG})` }} className="bg-no-repeat bg-cover pt-[20rem] pb-[500px] mt-14">
+
       <div className="w-11/12 max-w-[1080px] pt-4 mx-auto relative">
         <h2 className="font-mullish text-white text-center text-2xl leading-[1.2] font-bold">
           Explore Razorpay Business Banking
